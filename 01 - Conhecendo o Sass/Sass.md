@@ -15,11 +15,16 @@ O Sass é considerado, por seus autores, uma extensão do CSS3, porque permite t
 
 -   Primeiro, obtenha o [Node.js](https://nodejs.org/)
 -   Crie um diretório chamado sass
+
+```shell
+  $ tree
     ├── dev
+      └── my-styles.scss
     ├── dist
-    | └── my-styles.scss
+    │ └── my-styles.css
     ├── package.json
     └── gulpfile.js
+```
 
 -   Em dev criamos o arquivos SCSS.
 -   Em dist será o local do CSS final
