@@ -19,7 +19,7 @@ O Sass é considerado, por seus autores, uma extensão do CSS3, porque permite t
 ```shell
   $ tree
     ├── dev
-      └── my-styles.scss
+    │ └── my-styles.scss
     ├── dist
     │ └── my-styles.css
     ├── package.json
