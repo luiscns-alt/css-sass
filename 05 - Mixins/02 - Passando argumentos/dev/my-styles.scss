@@ -1,0 +1,15 @@
+@mixin error-box($border-width: 10px) {
+    color: red;
+    background-color: white;
+    border: $border-width solid red;
+}
+
+@mixin padding-mixin($values...) {
+    padding: $values;
+}
+
+.my-box {
+    font-size: 18px;
+    @include error-box(50px);
+    @include padding-mixin(50px 10px 20px 40px);
+}

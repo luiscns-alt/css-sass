@@ -1,0 +1,18 @@
+@mixin screen-size($min: 100px, $max: 300px) {
+    @media (min-width: $min) and (max-width: $max) {
+        @content;
+    }
+}
+
+@mixin size($size) {
+    width: $size;
+    height: $size;
+}
+
+@include screen-size(320px, 790px) {
+    .my-class {
+        color: red;
+        font-size: 20px;
+        @include size(300px);
+    }
+}
