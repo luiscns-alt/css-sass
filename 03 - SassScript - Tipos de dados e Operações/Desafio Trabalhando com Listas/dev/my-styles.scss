@@ -1,0 +1,7 @@
+$my-list: red green blue;
+$first-color: nth($my-list, 1);
+$second-color: nth($my-list, 3);
+
+.my-class {
+    color: mix($first-color, $second-color);
+}

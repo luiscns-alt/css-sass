@@ -1,0 +1,11 @@
+$my-list: 35px 15px 80% 41rem;
+$colors: (
+    demo: #225312,
+    paid: #957204,
+);
+
+.a {
+    margin: $my-list;
+    top: nth($my-list, 1);
+    color: map-get($colors, paid);
+}

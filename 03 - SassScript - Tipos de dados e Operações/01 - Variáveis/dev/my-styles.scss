@@ -1,0 +1,12 @@
+$my-var: 10px;
+$my-var2: blue;
+
+.my-class {
+    $my-var2: red !default;
+    top: $my-var;
+    color: $my-var2;
+}
+
+.my-class2 {
+    bottom: $my-var;
+}
