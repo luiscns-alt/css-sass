@@ -1,0 +1,7 @@
+@function double($value) {
+    @return $value * 2;
+}
+
+.my-class {
+    width: double(20px);
+}

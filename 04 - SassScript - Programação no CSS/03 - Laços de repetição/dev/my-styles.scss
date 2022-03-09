@@ -1,0 +1,23 @@
+$my-colors: 'red', 'green', 'blue';
+
+@for $i from 1 through 3 {
+    .class-#{i} {
+        color: red;
+    }
+}
+
+@each $color in $my-colors {
+    .btn-#{color} {
+        background-color: $color;
+    }
+}
+
+$i: 0;
+
+@while $i < 5 {
+    .my-class-#{$i} {
+        padding: 50px;
+    }
+
+    $i: $i + 1;
+}

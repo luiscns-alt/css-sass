@@ -1,0 +1,5 @@
+$a: abc;
+
+.my-class-#{$a} {
+    color: red;
+}
