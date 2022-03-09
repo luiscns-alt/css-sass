@@ -1,0 +1,17 @@
+.container {
+    width: 100px;
+    &:hover {
+        width: 150px;
+    }
+    .title {
+        color: red;
+        margin: {
+            top: 5px;
+            bottom: 10px;
+            right: 20px;
+        }
+    }
+    .text {
+        color: green;
+    }
+}
