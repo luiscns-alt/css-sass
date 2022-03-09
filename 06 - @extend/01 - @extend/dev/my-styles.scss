@@ -1,0 +1,10 @@
+.btn {
+    min-width: 150px;
+    padding: 10px 20px;
+}
+
+.btn-confirm {
+    background-color: rgba(61, 207, 61, 0.836);
+    color: white;
+    @extend .btn;
+}
